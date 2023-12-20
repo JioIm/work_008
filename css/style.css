@@ -1,0 +1,39 @@
+.Header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    line-height: 100px;
+
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.Header .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Header .inner>* {
+    flex: 1;
+}
+
+.Header .inner a img {
+    width: 200px;
+}
+
+.Header .inner .gnb .depth1 {
+    display: flex;
+    gap: 40px;
+    white-space: nowrap;
+}
+
+
+.Header .inner .util {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+}

@@ -1,0 +1,27 @@
+.inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    /* padding: 0 15px; */
+}
+
+.default {
+    padding: 100px 0;
+}
+
+.default .title {
+    max-width: 1400px;
+    margin: 0 0 24px 0;
+    /* padding: 0 15px; */
+}
+
+.default .title p {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0 0 32px 0;
+    line-height: 32px;
+}
+
+.default .title span {
+    font-size: 18px;
+    font-weight: 500;
+}
