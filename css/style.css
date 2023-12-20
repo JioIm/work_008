@@ -37,3 +37,24 @@
     justify-content: flex-end;
     gap: 16px;
 }
+
+.MainVisual .main_visual_slide {}
+
+.MainVisual .main_visual_slide .itm {
+    position: relative;
+    height: 100vh;
+}
+
+.MainVisual .main_visual_slide .itm .slide_img {
+    position: absolute;
+    inset: 0 0 0 0;
+    height: 100vh;
+}
+
+.MainVisual .main_visual_slide .itm01 .slide_img {
+    background: url(../images/mainVisual_001.jpg)no-repeat center center/cover;
+}
+
+.MainVisual .main_visual_slide .itm02 .slide_img {
+    background: url(../images/mainVisual_002.jpg)no-repeat center center/cover;
+}
