@@ -14,6 +14,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/jquery.fullpage.min.js"></script>
+    <script src="./js/jquery-1.12.4.min.js"></script>
     <script src="./js/custom.js"></script>
 
 </head>
@@ -24,7 +25,7 @@
             <div class="inner">
                 <h1>
                     <a href="/">
-                        <img src="./images/logo.svg" alt="">
+                        <img src="./images/logo_white.svg" alt="">
                     </a>
                 </h1>
                 <div class="gnb">
@@ -64,35 +65,232 @@
                 <h2 class="blind">main content</h2>
                 <div class="swiper main_visual_slide">
                     <div class="swiper-wrapper">
-                      <div class="swiper-slide itm itm01">
-                         <div class="slide_img"></div>
-                         <div class="content">
-                            <p>
-                                과학을 알면 <br/> 미래가 보인다
-                            </p>
-                      </div>
-                      </div>
-                      <div class="swiper-slide itm itm02">
-                          <div class="slide_img"></div>
-                          <div class="content">
-                            <p>
-                                미래를 준비하고<br/> 미래를 상상하는 공간
-                            </p>
-                          </div>
-                      </div>
+                        <div class="swiper-slide itm itm01">
+                            <div class="slide_img"></div>
+                            <div class="content">
+                                <p>
+                                    과학을 알면 <br /> 미래가 보인다
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide itm itm02">
+                            <div class="slide_img"></div>
+                            <div class="content">
+                                <p>
+                                    미래를 준비하고<br /> 미래를 상상하는 공간
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
                     <div class="swiper-pagination"></div>
                 </div>
             </section>
-            <section class="MainMap">
+            <section class="MainMap default">
+                <h2 class="blind">국립중앙과학관 지도</h2>
+                <div class="inner">
+                    <div class="title">
+                        <span>과학관 소개</span>
+                        <p>과학관 가이드맵</p>
+                    </div>
+                    <div class="img_box">
+                        <img src="./images/guide_map_illust.gif" alt="">
+                    </div>
+                </div>
 
             </section>
-            <section class="MainInfo">
+            <section class="MainTour default">
+                <h2 class="blind">국립중앙과학관 관람코스</h2>
+                <div class="inner">
+                    <div class="title">
+                        <span>과학관 소개</span>
+                        <p>유형별 추천코스</p>
+                    </div>
+                    <!-- <div class="itm_area">
+                        <div class="itm">
+                            <figure>
+                                <img src="./images/toddler_bg.jpg" alt="">
+                                <p>유아</p>
+                                <div class="btn_area">
+                                    <a href="" class="default_btn">
+                                        <span>자세히 보기</span>
+                                    </a>
+                                </div>
+                            </figure>
 
+                        </div>
+                        <div class="itm">
+                            <figure>
+                                <img src="./images/elementary_bg.jpg" alt="">
+                                <p>초등</p>
+                            </figure>
+
+                        </div>
+                        <div class="itm">
+                            <figure>
+                                <img src="./images/toddler_bg.jpg" alt="">
+                                <p>중/고등</p>
+                            </figure>
+                        </div>
+                        <div class="itm">
+                            <figure>
+                                <img src="./images/elementary_bg.jpg" alt="">
+                                <p>성인</p>
+                            </figure>
+                        </div>
+                        <div class="itm">
+                            <figure>
+                                <img src="./images/toddler_bg.jpg" alt="">
+                                <p>모든 연령</p>
+                            </figure>
+                        </div>
+                    </div> -->
+                </div>
             </section>
-            <section class="section">
+            <section class="MainEvent default">
+                <h2 class="blind">전시·행사</h2>
+                <div class="inner">
+                    <div class="tit_area">
+                        <div class="title">
+                            <span>전시·행사</span>
+                        </div>
+                        <ul class="event_tab">
+                            <li class="on"><a href="">현재 전시</a></li>
+                            <li><a href="">전시 예정</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab_content">
+                        <div class="content on">
+                            <div class="tab_inner">
+                                <figure>
+                                    <a href="">
+                                        <div class="img_box">
+                                            <img src="./images/event_001.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="txt_box">
+                                        <strong>우주에서 나를 보다</strong>
+                                        <span>2023.00.00-2023.00.00</span>
+                                        <p>
+                                            사회적 편견을 극복하 우주의 이론을<br />
+                                            발전시킨 여성 과학 ‘헨리에타 리비트’의 이야기
+                                        </p>
+                                        <div class="btn_area">
+                                            <a href="" class="default_btn">
+                                                <span>자세히 보기</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </figure>
+                                <figure>
+                                    <a href="">
+                                        <div class="img_box">
+                                            <img src="./images/event_002.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="txt_box">
+                                        <strong>우주에서 나를 보다</strong>
+                                        <p>2023.00.00-2023.00.00</p>
+                                        <p>
+                                            사회적 편견을 극복하 우주의 이론을<br />
+                                            발전시킨 여성 과학 ‘헨리에타 리비트’의 이야기
+                                        </p>
+                                        <div class="btn_area">
+                                            <a href="" class="default_btn">
+                                                <span>자세히 보기</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </figure>
+                                <figure>
+                                    <a href="">
+                                        <div class="img_box">
+                                            <img src="./images/event_003.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="txt_box">
+                                        <strong>우주에서 나를 보다</strong>
+                                        <span>2023.00.00-2023.00.00</span>
+                                        <p>
+                                            사회적 편견을 극복하 우주의 이론을<br />
+                                            발전시킨 여성 과학 ‘헨리에타 리비트’의 이야기
+                                        </p>
+                                        <div class="btn_area">
+                                            <a href="" class="default_btn">
+                                                <span>자세히 보기</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </figure>
+
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="tab_inner">
+                                <figure>
+                                    <a href="">
+                                        <div class="img_box">
+                                            <img src="./images/event_002.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="txt_box">
+                                        <strong>우주에서 나를 보다</strong>
+                                        <span>2023.00.00-2023.00.00</span>
+                                        <p>
+                                            사회적 편견을 극복하 우주의 이론을<br />
+                                            발전시킨 여성 과학 ‘헨리에타 리비트’의 이야기
+                                        </p>
+                                        <div class="btn_area">
+                                            <a href="" class="default_btn">
+                                                <span>자세히 보기</span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </figure>
+                                <figure>
+                                    <a href="">
+                                        <div class="img_box">
+                                            <img src="./images/event_003.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="txt_box">
+                                        <strong>우주에서 나를 보다</strong>
+                                        <p>2023.00.00-2023.00.00</p>
+                                        <p>
+                                            사회적 편견을 극복하 우주의 이론을<br />
+                                            발전시킨 여성 과학 ‘헨리에타 리비트’의 이야기
+                                        </p>
+                                        <div class="btn_area">
+                                            <a href="" class="default_btn">
+                                                <span>자세히 보기</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </figure>
+                                <figure>
+                                    <a href="">
+                                        <div class="img_box">
+                                            <img src="./images/event_001.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="txt_box">
+                                        <strong>우주에서 나를 보다</strong>
+                                        <span>2023.00.00-2023.00.00</span>
+                                        <p>
+                                            사회적 편견을 극복하 우주의 이론을<br />
+                                            발전시킨 여성 과학 ‘헨리에타 리비트’의 이야기
+                                        </p>
+                                        <div class="btn_area">
+                                            <a href="" class="default_btn">
+                                                <span>자세히 보기</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </figure>
+
+                            </div>
+                        </div>
+                    </div>
 
             </section>
             <section class="section">

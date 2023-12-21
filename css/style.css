@@ -6,8 +6,8 @@
     z-index: 999;
     line-height: 100px;
 
-    background: #fff;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .Header .inner {
@@ -28,6 +28,9 @@
     display: flex;
     gap: 40px;
     white-space: nowrap;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
 }
 
 
@@ -36,6 +39,8 @@
     align-items: center;
     justify-content: flex-end;
     gap: 16px;
+    font-size: 18px;
+    color: #fff;
 }
 
 .MainVisual .main_visual_slide {}
@@ -52,9 +57,127 @@
 }
 
 .MainVisual .main_visual_slide .itm01 .slide_img {
-    background: url(../images/mainVisual_001.jpg)no-repeat center center/cover;
+    background: url(../images/mainVisual_001.jpg) no-repeat center center/cover;
 }
 
 .MainVisual .main_visual_slide .itm02 .slide_img {
-    background: url(../images/mainVisual_002.jpg)no-repeat center center/cover;
+    background: url(../images/mainVisual_002.jpg) no-repeat center center/cover;
+}
+
+/* .MainTour .inner {}
+
+.MainTour .inner .itm_area {
+    display: flex;
+    gap: 16px;
+    height: 440px;
+}
+
+.MainTour .inner .itm_area>* {
+    flex: 1
+}
+
+.MainTour .itm_area .itm {
+    position: relative;
+}
+
+.MainTour .inner .itm_area figure {
+    border-radius: 50px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.MainTour .inner .itm_area figure img {}
+
+.MainTour .inner .itm_area figure p {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(50%, 0);
+    margin: 0;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+
+.MainTour .inner .itm_area figure a {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(50%, 0);
+    margin: 0;
+} */
+
+.MainEvent .tit_area {
+    margin: 0 0 40px 0;
+}
+
+.MainEvent .tit_area .event_tab {
+    display: flex;
+    gap: 40px;
+    margin: 0 0 24px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainEvent .tit_area .event_tab li {
+    border: 1px solid #003865;
+    border-radius: 16px;
+    padding: 8px 16px;
+}
+
+.MainEvent .tit_area .event_tab li:hover {
+    background: #003865;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.MainEvent .tit_area .event_tab li a {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.MainEvent .tab_inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.MainEvent .tab_inner figure {
+    display: flex;
+    align-items: end;
+}
+
+.MainEvent .tab_inner figure a img {
+    width: 240px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.MainEvent .tab_inner .txt_box {
+    text-align: left;
+    padding: 0 30px 0 30px;
+}
+
+.MainEvent .tab_inner .txt_box strong {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+}
+
+.MainEvent .tab_inner .txt_box span {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 16px 0;
+}
+
+.MainEvent .tab_inner .txt_box p {
+    font-size: 16px;
+    margin: 0 0 32px 0;
+}
+
+.MainEvent .tab_inner .txt_box .default_btn span {
+    margin: 0;
 }

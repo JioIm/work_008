@@ -6,22 +6,38 @@
 
 .default {
     padding: 100px 0;
+    text-align: center;
 }
 
 .default .title {
     max-width: 1400px;
-    margin: 0 0 24px 0;
-    /* padding: 0 15px; */
-}
-
-.default .title p {
-    font-size: 28px;
-    font-weight: 600;
     margin: 0 0 32px 0;
-    line-height: 32px;
 }
 
 .default .title span {
+    display: block;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0 0 24px 0;
+}
+
+.default .title p {
     font-size: 18px;
     font-weight: 500;
+}
+
+.default_btn {
+    display: inline-block;
+    border: 1px solid #003865;
+    background: #fff;
+    padding: 12px 32px;
+    color: #003865;
+    font-size: 14px;
+}
+
+.default_btn:hover {
+    background: #003865;
+    border: 1px solid #003865;
+    color: #fff;
+    transition: 0.3s;
 }
