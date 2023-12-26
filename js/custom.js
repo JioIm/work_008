@@ -19,6 +19,16 @@
 
 
 $(function () {
+
+  $(window).on('scroll', function () {
+    const scrollHeight = $(window).scrollTop();
+    if (scrollHeight > 0) {
+        $('.Header').addClass('on')
+    } else {
+        $('.Header').removeClass('on')
+    }
+});
+
   $('.MainVisual .main_visual_slide').slick({
     autoplay: true,
     autoplaySpeed: 3000,

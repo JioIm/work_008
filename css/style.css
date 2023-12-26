@@ -10,6 +10,13 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.Header.on {
+    color:#FFF;
+    background: #383c5b;
+    line-height: 70px;
+}
+
+
 .Header .inner {
     display: flex;
     align-items: center;
@@ -30,7 +37,7 @@
     white-space: nowrap;
     font-size: 18px;
     font-weight: 600;
-    color: #fff;
+    color: #FFF;
 }
 
 
