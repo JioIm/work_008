@@ -7,15 +7,17 @@
     <title>국립중앙과학관</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/jquery.fullpage.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css">
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./js/jquery.fullpage.min.js"></script>
     <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery.fullpage.min.js"></script>
+    <script src="./js/slick.min.js"></script>
     <script src="./js/custom.js"></script>
+
 
 </head>
 
@@ -63,97 +65,43 @@
         <main class="main">
             <section class="MainVisual">
                 <h2 class="blind">main content</h2>
-                <div class="swiper main_visual_slide">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide itm itm01">
-                            <div class="slide_img"></div>
-                            <div class="content">
-                                <p>
-                                    과학을 알면 <br /> 미래가 보인다
-                                </p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide itm itm02">
-                            <div class="slide_img"></div>
-                            <div class="content">
-                                <p>
-                                    미래를 준비하고<br /> 미래를 상상하는 공간
-                                </p>
+                <div class="main_visual_slide">
+                    <div class="itm itm01">
+                        <div class="slogan">
+                             <p> 과학을 알면 <br /> 미래가 보인다</p>
+                            <div class="btn_area">
+                                <a href="" class="default_btn_w">
+                                    <span>전시안내 보기</span>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-pagination"></div>
+                    <div class="itm itm02">
+                        <div class="slogan">
+                            <p>미래를 준비하고<br /> 미래를 상상하는 공간</p>
+                            <div class="btn_area">
+                                <a href="" class="default_btn_w">
+                                    <span>전시안내 보기</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div> 
+                <div class="main_slide_arrows">
+                    <i class="xi-angle-left-thin left"></i>
+                    <i class="xi-angle-right-thin right"></i>
                 </div>
             </section>
-            <section class="MainMap default">
-                <h2 class="blind">국립중앙과학관 지도</h2>
-                <div class="inner">
-                    <div class="title">
-                        <span>과학관 소개</span>
-                        <p>과학관 가이드맵</p>
-                    </div>
-                    <div class="img_box">
-                        <img src="./images/guide_map_illust.gif" alt="">
-                    </div>
-                </div>
-
-            </section>
-            <section class="MainTour default">
-                <h2 class="blind">국립중앙과학관 관람코스</h2>
-                <div class="inner">
-                    <div class="title">
-                        <span>과학관 소개</span>
-                        <p>유형별 추천코스</p>
-                    </div>
-                    <!-- <div class="itm_area">
-                        <div class="itm">
-                            <figure>
-                                <img src="./images/toddler_bg.jpg" alt="">
-                                <p>유아</p>
-                                <div class="btn_area">
-                                    <a href="" class="default_btn">
-                                        <span>자세히 보기</span>
-                                    </a>
-                                </div>
-                            </figure>
-
-                        </div>
-                        <div class="itm">
-                            <figure>
-                                <img src="./images/elementary_bg.jpg" alt="">
-                                <p>초등</p>
-                            </figure>
-
-                        </div>
-                        <div class="itm">
-                            <figure>
-                                <img src="./images/toddler_bg.jpg" alt="">
-                                <p>중/고등</p>
-                            </figure>
-                        </div>
-                        <div class="itm">
-                            <figure>
-                                <img src="./images/elementary_bg.jpg" alt="">
-                                <p>성인</p>
-                            </figure>
-                        </div>
-                        <div class="itm">
-                            <figure>
-                                <img src="./images/toddler_bg.jpg" alt="">
-                                <p>모든 연령</p>
-                            </figure>
-                        </div>
-                    </div> -->
-                </div>
-            </section>
-            <section class="MainEvent default">
+            
+            <section class="MainTab default">
                 <h2 class="blind">전시·행사</h2>
                 <div class="inner">
                     <div class="tit_area">
                         <div class="title">
                             <span>전시·행사</span>
                         </div>
-                        <ul class="event_tab">
+                        <ul class="main_tab">
                             <li class="on"><a href="">현재 전시</a></li>
                             <li><a href="">전시 예정</a></li>
                         </ul>
@@ -221,7 +169,6 @@
                                         </div>
                                     </div>
                                 </figure>
-
                             </div>
                         </div>
                         <div class="content">
@@ -287,7 +234,26 @@
                                         </div>
                                     </div>
                                 </figure>
-
+                                <figure>
+                                    <a href="">
+                                        <div class="img_box">
+                                            <img src="./images/event_001.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="txt_box">
+                                        <strong>우주에서 나를 보다</strong>
+                                        <span>2023.00.00-2023.00.00</span>
+                                        <p>
+                                            사회적 편견을 극복하 우주의 이론을<br />
+                                            발전시킨 여성 과학 ‘헨리에타 리비트’의 이야기
+                                        </p>
+                                        <div class="btn_area">
+                                            <a href="" class="default_btn">
+                                                <span>자세히 보기</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </figure>
                             </div>
                         </div>
                     </div>
@@ -304,7 +270,46 @@
             </section>
         </main>
         <footer class="Footer">
+            <div class="inner">
+                <div class="logo_box">
+                    <a href="/">
+                        <img src="./images/footer_logo.png" alt="">
+                    </a>
+                </div>
+                <div class="content_box">
+                    <div class="customer_area">
+                        <ul>
+                            <li><a href="">개인정보처리방침</a></li>
+                            <li><a href="">오시는길</a></li>
+                            <li><a href="">저작권 정책</a></li>
+                        </ul>
 
+                    </div>
+                    <div class="address_wrap">
+                        <ul>
+                            <li>주소 : 서울특별시 구로구 경인로 662 (디큐브시티) 14층</li>
+                            <li>ARS : <a href="tel:042-601-7979">042-601-7979</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="copy">
+                        &copy; Copyright 2018 National Science Museum All Rights Reserved.
+                    </div>
+                </div>
+                <div class="customer_link">
+                    <select class="lnk">
+                        <option value="">패밀리 사이트</option>
+                        <option value="">과학기술정보통신부</option>
+                        <option value="">국립과천과학관</option>
+                        <option value="">국립부산과학관</option>
+                        <option value="">국립대구과학관</option>
+                        <option value="">국립광주과학관</option>
+                        <option value="">한국과학관협회</option>
+                        <option value="">한국과학창의재단</option>
+                        <option value="">국민재난안전포털</option>
+                    </select>
+                </div>
+            </div>
         </footer>
     </div>
 </body>
